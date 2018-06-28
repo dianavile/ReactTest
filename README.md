@@ -53,4 +53,11 @@ __SUMMARY:__
 <Article />
 <Sidebar />
 ```
-
+__COMPOSITION:__
+```
+<Page>
+  <Article />
+  <Sidebar />
+</Page>
+```
+__NOTE:__ Now the Page component has the `Article` and `Sidebar` components inside. 
