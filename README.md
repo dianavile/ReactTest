@@ -48,6 +48,13 @@ __SUMMARY:__
 - Write a function WITH COMPOSITION
 - Use the DOT RULE: DO ONE THING at the TIME.
 - React builds up pieces of a UI using __components__. 
+- __composition__ plays a huge part in building React components.
+
+### Composition Recap
+- Composition occurs when simple functions are combined together to create more complex functions. 
+- Think of each function as a single building block that does one thing (DOT). 
+- __composition__ =  _combine these simple functions together to form a more complex function_.
+
 ```
 <Page />
 <Article />
