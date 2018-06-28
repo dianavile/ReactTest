@@ -32,5 +32,18 @@ function getProfileData (username) {
   }
 ```
 __NOTE:__ Potential issues with version WITHOUT composition:
-- 1) 
-- 2) 
+- 1) __duplicate code__ is needed, but A good function should follow the "DOT" rule: __Do One Thing__
+- 2) This function is doing a couple of different (minor) things; 
+a) it's creating two different URLs, 
+b) storing them as properties on an object, 
+c) returning that object. 
+
+WHEREAS: in the composed version, each function just does one thing:
+
+- `getProfileLink` – just builds up a string of the user's GitHub profile link
+- `getProfilePic` – just builds up a string the user's GitHub profile picture
+- `getProfileData` – returns a new object
+
+__SUMMARY:__
+- Write a function WITH COMPOSITION
+- Use the DOT RULE: DO ONE THING at the TIME.
