@@ -47,3 +47,10 @@ WHEREAS: in the composed version, each function just does one thing:
 __SUMMARY:__
 - Write a function WITH COMPOSITION
 - Use the DOT RULE: DO ONE THING at the TIME.
+- React builds up pieces of a UI using __components__. 
+```
+<Page />
+<Article />
+<Sidebar />
+```
+
